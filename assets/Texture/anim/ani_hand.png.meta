@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "0933111f-cd4b-45bf-ada4-06edfc8106bd",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "ani_hand": {
+      "ver": "1.0.3",
+      "uuid": "20b222c2-54bf-407d-89fb-d74d2ec256ed",
+      "rawTextureUuid": "0933111f-cd4b-45bf-ada4-06edfc8106bd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 76,
+      "height": 76,
+      "rawWidth": 80,
+      "rawHeight": 80,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

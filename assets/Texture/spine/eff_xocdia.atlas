@@ -1,0 +1,75 @@
+
+eff_xocdia.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+win effect (1)
+  rotate: true
+  xy: 549, 2
+  size: 236, 238
+  orig: 378, 378
+  offset: 71, 62
+  index: -1
+win effect (10)
+  rotate: false
+  xy: 554, 240
+  size: 240, 240
+  orig: 378, 378
+  offset: 70, 69
+  index: -1
+win effect (2)
+  rotate: false
+  xy: 281, 739
+  size: 273, 275
+  orig: 378, 378
+  offset: 52, 46
+  index: -1
+win effect (3)
+  rotate: false
+  xy: 2, 736
+  size: 277, 278
+  orig: 378, 378
+  offset: 50, 45
+  index: -1
+win effect (4)
+  rotate: false
+  xy: 2, 456
+  size: 277, 278
+  orig: 378, 378
+  offset: 50, 45
+  index: -1
+win effect (5)
+  rotate: false
+  xy: 2, 179
+  size: 273, 275
+  orig: 378, 378
+  offset: 52, 46
+  index: -1
+win effect (6)
+  rotate: false
+  xy: 281, 465
+  size: 271, 272
+  orig: 378, 378
+  offset: 53, 48
+  index: -1
+win effect (7)
+  rotate: true
+  xy: 281, 200
+  size: 263, 266
+  orig: 378, 378
+  offset: 57, 52
+  index: -1
+win effect (8)
+  rotate: false
+  xy: 556, 482
+  size: 263, 262
+  orig: 378, 378
+  offset: 58, 58
+  index: -1
+win effect (9)
+  rotate: false
+  xy: 556, 746
+  size: 267, 268
+  orig: 378, 378
+  offset: 56, 55
+  index: -1

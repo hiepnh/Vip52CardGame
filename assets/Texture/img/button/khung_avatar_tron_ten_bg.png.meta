@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "01f1b9c5-c908-4201-ab7d-a950c28d05ad",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "khung_avatar_tron_ten_bg": {
+      "ver": "1.0.3",
+      "uuid": "b04607fb-29e6-4d98-8ff6-7866b46d173d",
+      "rawTextureUuid": "01f1b9c5-c908-4201-ab7d-a950c28d05ad",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 108,
+      "height": 23,
+      "rawWidth": 108,
+      "rawHeight": 23,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

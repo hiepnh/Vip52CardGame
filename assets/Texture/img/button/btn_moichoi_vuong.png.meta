@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "ab23e5d8-d3ab-4b8e-90fe-b6fb437fa3dc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "btn_moichoi_vuong": {
+      "ver": "1.0.3",
+      "uuid": "03fd1278-9157-4960-a9ee-59af76299ab3",
+      "rawTextureUuid": "ab23e5d8-d3ab-4b8e-90fe-b6fb437fa3dc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -1,
+      "trimX": 5,
+      "trimY": 4,
+      "width": 123,
+      "height": 115,
+      "rawWidth": 133,
+      "rawHeight": 121,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

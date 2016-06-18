@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>emo1/01.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{329, 165}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/02.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{83, 329}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/03.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{329, 83}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/04.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{83, 247}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/05.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{329, 1}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/06.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{83, 165}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/07.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{247, 411}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/08.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{493, 1}, {76, 76}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {76, 76}}</string>
+			<key>sourceSize</key>
+			<string>{76, 76}</string>
+		</dict>
+		<key>emo1/09.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{492, 246}, {70, 70}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 70}}</string>
+			<key>sourceSize</key>
+			<string>{70, 70}</string>
+		</dict>
+		<key>emo1/10.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{411, 328}, {70, 70}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 70}}</string>
+			<key>sourceSize</key>
+			<string>{70, 70}</string>
+		</dict>
+		<key>emo1/11.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{483, 328}, {70, 70}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 70}}</string>
+			<key>sourceSize</key>
+			<string>{70, 70}</string>
+		</dict>
+		<key>emo1/12.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{571, 1}, {70, 70}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 70}}</string>
+			<key>sourceSize</key>
+			<string>{70, 70}</string>
+		</dict>
+		<key>emo1/13.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{411, 400}, {70, 70}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 70}}</string>
+			<key>sourceSize</key>
+			<string>{70, 70}</string>
+		</dict>
+		<key>emo1/14.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{483, 400}, {70, 64}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 64}}</string>
+			<key>sourceSize</key>
+			<string>{70, 64}</string>
+		</dict>
+		<key>emo1/15.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{564, 246}, {67, 66}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {67, 66}}</string>
+			<key>sourceSize</key>
+			<string>{67, 66}</string>
+		</dict>
+		<key>emo1/16.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{551, 79}, {59, 71}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {59, 71}}</string>
+			<key>sourceSize</key>
+			<string>{59, 71}</string>
+		</dict>
+		<key>emo1/17.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{549, 400}, {59, 70}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {59, 70}}</string>
+			<key>sourceSize</key>
+			<string>{59, 70}</string>
+		</dict>
+		<key>emo1/18.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{493, 79}, {74, 56}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {74, 56}}</string>
+			<key>sourceSize</key>
+			<string>{74, 56}</string>
+		</dict>
+		<key>emo1/19.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{555, 318}, {70, 55}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {70, 55}}</string>
+			<key>sourceSize</key>
+			<string>{70, 55}</string>
+		</dict>
+		<key>emo1/20.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{571, 152}, {57, 66}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {57, 66}}</string>
+			<key>sourceSize</key>
+			<string>{57, 66}</string>
+		</dict>
+		<key>emo1/21.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{612, 73}, {54, 64}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {54, 64}}</string>
+			<key>sourceSize</key>
+			<string>{54, 64}</string>
+		</dict>
+		<key>emo1/22.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{491, 165}, {78, 79}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {78, 79}}</string>
+			<key>sourceSize</key>
+			<string>{78, 79}</string>
+		</dict>
+		<key>emo1/23.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{83, 83}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/24.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{411, 247}, {79, 79}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {79, 79}}</string>
+			<key>sourceSize</key>
+			<string>{79, 79}</string>
+		</dict>
+		<key>emo1/25.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{411, 165}, {80, 78}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 78}}</string>
+			<key>sourceSize</key>
+			<string>{80, 78}</string>
+		</dict>
+		<key>emo1/26.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{247, 329}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/27.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{83, 1}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/28.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{247, 247}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/29.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 411}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/30.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{165, 247}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/31.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{411, 83}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/32.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{165, 165}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/33.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{411, 1}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/34.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{165, 83}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/35.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{329, 411}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/36.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{165, 1}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/37.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{329, 329}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/38.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{83, 411}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/39.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{329, 247}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/40.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 329}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/41.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{247, 165}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/42.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 247}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/43.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{247, 83}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/44.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 165}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/45.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{247, 1}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/46.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 83}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/47.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{165, 411}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/48.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+		<key>emo1/49.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{165, 329}, {80, 80}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {80, 80}}</string>
+			<key>sourceSize</key>
+			<string>{80, 80}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{1024, 512}</string>
+		<key>textureFileName</key>
+		<string>emo1.png</string>
+	</dict>
+</dict>
+</plist>

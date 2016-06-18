@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "d08d9006-8aa6-4fdc-8b67-f9ffbd479778",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "logo_maubinh": {
+      "ver": "1.0.3",
+      "uuid": "9a3d39af-774c-4b65-88a0-65462bfdff2b",
+      "rawTextureUuid": "d08d9006-8aa6-4fdc-8b67-f9ffbd479778",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 363,
+      "height": 181,
+      "rawWidth": 363,
+      "rawHeight": 181,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

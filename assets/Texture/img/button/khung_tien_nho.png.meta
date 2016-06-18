@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "89e4d172-96c2-4436-b4cd-1d5b17b271be",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "khung_tien_nho": {
+      "ver": "1.0.3",
+      "uuid": "097b7837-9979-4a27-b764-d9c578f28b5e",
+      "rawTextureUuid": "89e4d172-96c2-4436-b4cd-1d5b17b271be",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 109,
+      "height": 31,
+      "rawWidth": 109,
+      "rawHeight": 31,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

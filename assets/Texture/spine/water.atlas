@@ -1,0 +1,103 @@
+
+water.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hddj-2-0002
+  rotate: true
+  xy: 592, 153
+  size: 99, 97
+  orig: 224, 193
+  offset: 109, 84
+  index: -1
+hddj-2-0003
+  rotate: true
+  xy: 691, 153
+  size: 99, 97
+  orig: 224, 193
+  offset: 109, 84
+  index: -1
+hddj-2-0004
+  rotate: true
+  xy: 493, 150
+  size: 102, 97
+  orig: 224, 193
+  offset: 106, 84
+  index: -1
+hddj-2-0005
+  rotate: false
+  xy: 174, 10
+  size: 160, 91
+  orig: 224, 193
+  offset: 50, 89
+  index: -1
+hddj-2-0006
+  rotate: false
+  xy: 308, 147
+  size: 183, 105
+  orig: 224, 193
+  offset: 27, 75
+  index: -1
+hddj-2-0007
+  rotate: true
+  xy: 2, 68
+  size: 184, 170
+  orig: 224, 193
+  offset: 5, 9
+  index: -1
+hddj-2-0008
+  rotate: true
+  xy: 174, 103
+  size: 149, 132
+  orig: 224, 193
+  offset: 5, 9
+  index: -1
+hddj-2-0009
+  rotate: false
+  xy: 336, 17
+  size: 149, 128
+  orig: 224, 193
+  offset: 5, 9
+  index: -1
+hddj-2-0010
+  rotate: false
+  xy: 487, 22
+  size: 149, 123
+  orig: 224, 193
+  offset: 5, 9
+  index: -1
+hddj-2-0011
+  rotate: true
+  xy: 638, 2
+  size: 149, 118
+  orig: 224, 193
+  offset: 5, 9
+  index: -1
+hddj-2-0012
+  rotate: true
+  xy: 758, 2
+  size: 149, 118
+  orig: 224, 193
+  offset: 5, 4
+  index: -1
+hddj-2-0013
+  rotate: true
+  xy: 878, 103
+  size: 149, 109
+  orig: 224, 193
+  offset: 5, 4
+  index: -1
+pourwater
+  rotate: false
+  xy: 790, 161
+  size: 84, 91
+  orig: 101, 113
+  offset: 9, 6
+  index: -1
+hddj-2-0001
+  rotate: false
+  xy: 790, 161
+  size: 84, 91
+  orig: 224, 193
+  offset: 119, 84
+  index: -1

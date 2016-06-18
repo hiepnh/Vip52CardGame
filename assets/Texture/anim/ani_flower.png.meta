@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "123a0bc1-2a2d-4e98-8f09-20a43a82f77c",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "ani_flower": {
+      "ver": "1.0.3",
+      "uuid": "a748ac00-5fe1-405c-aff6-8d7770df655f",
+      "rawTextureUuid": "123a0bc1-2a2d-4e98-8f09-20a43a82f77c",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 2,
+      "trimY": 2,
+      "width": 76,
+      "height": 76,
+      "rawWidth": 80,
+      "rawHeight": 80,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

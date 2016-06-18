@@ -1,0 +1,131 @@
+
+bom.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bomb
+  rotate: false
+  xy: 490, 38
+  size: 80, 88
+  orig: 160, 140
+  offset: 43, 28
+  index: -1
+hddj-9-0001
+  rotate: false
+  xy: 490, 38
+  size: 80, 88
+  orig: 160, 140
+  offset: 43, 28
+  index: -1
+hddj-9-0002
+  rotate: false
+  xy: 572, 38
+  size: 80, 88
+  orig: 160, 140
+  offset: 43, 28
+  index: -1
+hddj-9-0003
+  rotate: false
+  xy: 654, 38
+  size: 80, 88
+  orig: 160, 140
+  offset: 43, 28
+  index: -1
+hddj-9-0004
+  rotate: false
+  xy: 244, 12
+  size: 80, 95
+  orig: 160, 140
+  offset: 43, 28
+  index: -1
+hddj-9-0005
+  rotate: false
+  xy: 326, 32
+  size: 80, 94
+  orig: 160, 140
+  offset: 43, 28
+  index: -1
+hddj-9-0006
+  rotate: true
+  xy: 736, 55
+  size: 71, 94
+  orig: 160, 140
+  offset: 52, 28
+  index: -1
+hddj-9-0007
+  rotate: false
+  xy: 408, 32
+  size: 80, 94
+  orig: 160, 140
+  offset: 43, 28
+  index: -1
+hddj-9-0008
+  rotate: false
+  xy: 867, 137
+  size: 111, 110
+  orig: 160, 140
+  offset: 25, 17
+  index: -1
+hddj-9-0009
+  rotate: false
+  xy: 292, 128
+  size: 125, 119
+  orig: 160, 140
+  offset: 18, 12
+  index: -1
+hddj-9-0010
+  rotate: false
+  xy: 2, 109
+  size: 143, 138
+  orig: 160, 140
+  offset: 9, 2
+  index: -1
+hddj-9-0011
+  rotate: false
+  xy: 147, 109
+  size: 143, 138
+  orig: 160, 140
+  offset: 9, 2
+  index: -1
+hddj-9-0012
+  rotate: false
+  xy: 419, 128
+  size: 125, 119
+  orig: 160, 140
+  offset: 18, 12
+  index: -1
+hddj-9-0013
+  rotate: true
+  xy: 2, 2
+  size: 105, 119
+  orig: 160, 140
+  offset: 28, 12
+  index: -1
+hddj-9-0014
+  rotate: false
+  xy: 546, 128
+  size: 105, 119
+  orig: 160, 140
+  offset: 28, 12
+  index: -1
+hddj-9-0015
+  rotate: true
+  xy: 123, 2
+  size: 105, 119
+  orig: 160, 140
+  offset: 28, 12
+  index: -1
+hddj-9-0016
+  rotate: false
+  xy: 653, 128
+  size: 105, 119
+  orig: 160, 140
+  offset: 28, 12
+  index: -1
+hddj-9-0017
+  rotate: false
+  xy: 760, 128
+  size: 105, 119
+  orig: 160, 140
+  offset: 28, 12
+  index: -1

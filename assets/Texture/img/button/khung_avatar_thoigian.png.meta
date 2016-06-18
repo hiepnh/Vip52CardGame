@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "5f6cb5e0-d4dd-47df-b49d-cccbd534d38a",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "khung_avatar_thoigian": {
+      "ver": "1.0.3",
+      "uuid": "56da4a4a-edce-4118-b830-934f1e489394",
+      "rawTextureUuid": "5f6cb5e0-d4dd-47df-b49d-cccbd534d38a",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 143,
+      "height": 188,
+      "rawWidth": 143,
+      "rawHeight": 188,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

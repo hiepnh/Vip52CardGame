@@ -1,0 +1,82 @@
+
+tomato.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tomato-0
+  rotate: false
+  xy: 2, 2
+  size: 107, 107
+  orig: 107, 107
+  offset: 0, 0
+  index: -1
+tomato-1
+  rotate: false
+  xy: 523, 13
+  size: 82, 96
+  orig: 107, 107
+  offset: 13, 8
+  index: -1
+tomato-2
+  rotate: true
+  xy: 690, 38
+  size: 71, 82
+  orig: 107, 107
+  offset: 18, 15
+  index: -1
+tomato-3
+  rotate: false
+  xy: 607, 36
+  size: 81, 73
+  orig: 107, 107
+  offset: 17, 16
+  index: -1
+tomato-4
+  rotate: false
+  xy: 420, 13
+  size: 101, 96
+  orig: 107, 107
+  offset: 3, 2
+  index: -1
+tomato-5
+  rotate: false
+  xy: 111, 11
+  size: 101, 98
+  orig: 107, 107
+  offset: 3, 0
+  index: -1
+tomato-8
+  rotate: false
+  xy: 111, 11
+  size: 101, 98
+  orig: 107, 107
+  offset: 3, 0
+  index: -1
+tomato-10
+  rotate: false
+  xy: 111, 11
+  size: 101, 98
+  orig: 107, 107
+  offset: 3, 0
+  index: -1
+tomato-6
+  rotate: false
+  xy: 214, 11
+  size: 101, 98
+  orig: 107, 107
+  offset: 3, 0
+  index: -1
+tomato-7
+  rotate: false
+  xy: 317, 11
+  size: 101, 98
+  orig: 107, 107
+  offset: 3, 0
+  index: -1
+tomato-9
+  rotate: false
+  xy: 317, 11
+  size: 101, 98
+  orig: 107, 107
+  offset: 3, 0
+  index: -1

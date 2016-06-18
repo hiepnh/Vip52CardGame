@@ -1,0 +1,82 @@
+
+egg.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b1
+  rotate: false
+  xy: 862, 197
+  size: 65, 72
+  orig: 220, 168
+  offset: 76, 55
+  index: -1
+b10
+  rotate: false
+  xy: 217, 323
+  size: 210, 162
+  orig: 220, 168
+  offset: 6, 2
+  index: -1
+b2
+  rotate: false
+  xy: 2, 2
+  size: 149, 102
+  orig: 220, 168
+  offset: 37, 47
+  index: -1
+b3
+  rotate: false
+  xy: 645, 192
+  size: 215, 136
+  orig: 220, 168
+  offset: 4, 30
+  index: -1
+b4
+  rotate: true
+  xy: 165, 101
+  size: 219, 149
+  orig: 220, 168
+  offset: 1, 19
+  index: -1
+b5
+  rotate: false
+  xy: 645, 330
+  size: 215, 155
+  orig: 220, 168
+  offset: 4, 12
+  index: -1
+b6
+  rotate: true
+  xy: 862, 271
+  size: 214, 155
+  orig: 220, 168
+  offset: 5, 11
+  index: -1
+b7
+  rotate: false
+  xy: 429, 328
+  size: 214, 157
+  orig: 220, 168
+  offset: 5, 9
+  index: -1
+b8
+  rotate: true
+  xy: 2, 106
+  size: 214, 161
+  orig: 220, 168
+  offset: 5, 5
+  index: -1
+b9
+  rotate: false
+  xy: 2, 322
+  size: 213, 163
+  orig: 220, 168
+  offset: 5, 3
+  index: -1
+egg
+  rotate: false
+  xy: 929, 201
+  size: 52, 68
+  orig: 52, 68
+  offset: 0, 0
+  index: -1
