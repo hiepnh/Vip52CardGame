@@ -82,9 +82,7 @@ var PopupLobbyUI = cc.Class({
         //if(Utils.isTopPopUp(node) )  return;
         node.active = value;
     },
-    // pushTopPopup: function(node){
-    //     //  this.arrayOpenDialog.push(node);
-    // },
+
    showUserInfo: function () {
        if(globalData.popUpNode.length !== 0) return;
 
