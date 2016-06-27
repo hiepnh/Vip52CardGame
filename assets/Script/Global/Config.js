@@ -1,4 +1,3 @@
-
 /**
  * 
  * cc.url.raw(res/textures/star.png) => res/raw-assets/textures/star.png
@@ -13,22 +12,21 @@ const resouceGame = [
     // 'res/raw-assets/Texture/img/bubble chat.png',
     'res/raw-assets/Texture/img/loading_bar1.png',
  
-	
 ];
 const LIST_GAME_IMG = [
-    'res/raw-assets/Texture/img/mainLobby/sam.png',
-    'res/raw-assets/Texture/img/mainLobby/maubinh.png',
-    'res/raw-assets/Texture/img/mainLobby/poker.png',
-    'res/raw-assets/Texture/img/mainLobby/phom.png',
-    'res/raw-assets/Texture/img/mainLobby/chan.png',
     'res/raw-assets/Texture/img/mainLobby/tlmn.png',
-    'res/raw-assets/Texture/img/mainLobby/3cay.png',
-    'res/raw-assets/Texture/img/mainLobby/lieng.png',
-    'res/raw-assets/Texture/img/mainLobby/xito.png',
+	'res/raw-assets/Texture/img/mainLobby/phom.png',
+	'res/raw-assets/Texture/img/mainLobby/3cay.png',
+	'res/raw-assets/Texture/img/mainLobby/poker.png',
     'res/raw-assets/Texture/img/mainLobby/xocdia.png',
- 
-	
+	'res/raw-assets/Texture/img/mainLobby/lieng.png',
+    'res/raw-assets/Texture/img/mainLobby/xito.png',
+	'res/raw-assets/Texture/img/mainLobby/sam.png',
+    'res/raw-assets/Texture/img/mainLobby/maubinh.png',
+    'res/raw-assets/Texture/img/mainLobby/chan.png',
+  
 ];
+
 // const LIST_GAME_IMG = [
 //     'res/Texture/img/mainLobby/sam.png',
 //     'res/Texture/img/mainLobby/maubinh.png',

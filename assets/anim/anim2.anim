@@ -1,0 +1,97 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "anim2",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.02,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {}
+    },
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -10,
+            54
+          ]
+        },
+        {
+          "frame": 0.1,
+          "value": [
+            -17,
+            -49
+          ]
+        },
+        {
+          "frame": 0.2,
+          "value": [
+            137,
+            5
+          ]
+        },
+        {
+          "frame": 0.3,
+          "value": [
+            210,
+            -96
+          ]
+        },
+        {
+          "frame": 0.4,
+          "value": [
+            175,
+            96
+          ]
+        },
+        {
+          "frame": 0.5,
+          "value": [
+            270,
+            -13
+          ]
+        },
+        {
+          "frame": 0.6,
+          "value": [
+            -91,
+            111
+          ]
+        },
+        {
+          "frame": 0.7,
+          "value": [
+            -177,
+            -113
+          ]
+        },
+        {
+          "frame": 0.8,
+          "value": [
+            -263,
+            49
+          ]
+        },
+        {
+          "frame": 0.9,
+          "value": [
+            121,
+            120
+          ]
+        },
+        {
+          "frame": 1,
+          "value": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "events": []
+}

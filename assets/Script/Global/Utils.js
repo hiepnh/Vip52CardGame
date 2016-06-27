@@ -33,7 +33,7 @@ function isBust (cards) {
 }
 function isComponentOfTopPopUp(node){
     var globalData = require('GlobalData').getInstance();
-    if(globalData.popUpNode){
+    if(globalData.popUpNode && globalData.popUpNode.length){
                 var topPopUp = globalData.popUpNode[globalData.popUpNode.length -1];
                 //Returns true if this node is a child, deep child or identical to the given node.
                 
@@ -68,14 +68,48 @@ var encode = function(obj) {
  * return json obj js
  * */
 var decode = function(obj) {
-    return JSON.parse(obj);
+    try {
+      return JSON.parse(obj);
+    } catch (e) {
+        return null;
+    }
+    
+    return null;
 };
 
 var isMobile = function () {
     return cc.sys.isMobile;
 };
 
-
+var convertNumberToShortFormat = function (num) {
+    //toFixed(0);// ko lay sau dau phay?
+    var kq = num;
+     var sodu;
+   if(num >= Math.pow(10, 9)){
+       //1 ti?
+        sodu = num%Math.pow(10, 9);
+       if(sodu >0)
+            kq= `${num/Math.pow(10, 9)}.${sodu.toFixed(2)}B`;
+       else
+            kq= `${num/Math.pow(10, 9)}B`;
+   }else if(num >= Math.pow(10, 6)){
+       //1 m
+        sodu = num%Math.pow(10,6);
+       if(sodu >0)
+            kq= `${num/Math.pow(10, 6)}.${sodu.toFixed(2)}M`;
+        else 
+            kq= `${num/Math.pow(10, 6)}M`;
+   }else if(num >= Math.pow(10, 3)){
+       //1 k
+        sodu = num%Math.pow(10,3);
+        if(sodu >0)
+            kq= `${num/Math.pow(10, 3)}.${sodu.toFixed(2)}K`;
+        else 
+            kq= `${num/Math.pow(10, 3)}K`;
+   }
+   return kq;
+   
+};
 
 module.exports = {
     encode:encode,
@@ -84,5 +118,6 @@ module.exports = {
     getMinMaxPoint: getMinMaxPoint,
     isMobile: isMobile,
     isComponentOfTopPopUp:isComponentOfTopPopUp,
+    convertNumberToShortFormat:convertNumberToShortFormat,
     isTopPopUp:isTopPopUp
 };

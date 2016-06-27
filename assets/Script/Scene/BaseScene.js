@@ -1,5 +1,6 @@
 var MyWebSocket = require('MyWebSocket');
-
+var EventGame  = require('Constant').OBSERVER_EVENT;
+var GlobalData = require('GlobalData').getInstance();
 var BaseScene= cc.Class({
     extends: cc.Component,
 
@@ -13,6 +14,7 @@ var BaseScene= cc.Class({
     // },
     // use this for initialization
     onLoad: function () {
+        //cc.game.addPersistRootNode(this);
         
     },
      onChangeScene: function (message) {
@@ -32,36 +34,47 @@ var BaseScene= cc.Class({
     onRoomPluginMessageFunc: function (message) {
         console.log("onMSG onRoomPluginMessageFunc in Base SCENCE:" + message)
     },
+     onSocketErrorFunc: function (message) {
+        console.log("onMSG onSocketErrorFunc in Base SCENCE:" + message)
+    },
+     onSocketCloseFunc: function (message) {
+        console.log("onMSG onSocketCloseFunc in Base SCENCE:" + message)
+    },
     //call start before first update() in lifecycle
     start:function () {
+        // cc.game.addPersistRootNode(this.node);
         this.connectWsCallBack();
     },
     onDestroy: function () {
          cc.log('------------------------onDestroy BaseScene');
-        MyWebSocket.removeObserver('onLogin',  this.onLoginFunc);    
-        MyWebSocket.removeObserver('onLogout',  this.onLogoutFunc);
-        MyWebSocket.removeObserver('onPing',  this.onPingFunc);
-        MyWebSocket.removeObserver('onRoomPluginMessage',  this.onRoomPluginMessageFunc);
+        MyWebSocket.getInstance().removeObserver(EventGame.ON_LOGIN,  this.onLoginFunc);    
+        MyWebSocket.getInstance().removeObserver(EventGame.ON_LOGOUT,  this.onLogoutFunc);
+        MyWebSocket.getInstance().removeObserver(EventGame.ON_PING,  this.onPingFunc);
+        MyWebSocket.getInstance().removeObserver(EventGame.ON_ROOM_PLUGIN_MSG,  this.onRoomPluginMessageFunc);
+        MyWebSocket.getInstance().removeObserver(EventGame.ON_ERROR,  this.onSocketErrorFunc);
+        MyWebSocket.getInstance().removeObserver(EventGame.ON_CLOSE,  this.onSocketCloseFunc);
+        
+        ///
+        GlobalData.clearPopUpNode();
         
     },
    
  	
     connectWsCallBack: function () {
+        MyWebSocket.getInstance().addObserver(EventGame.ON_LOGIN,this.onLoginFunc);    
+        MyWebSocket.getInstance().addObserver(EventGame.ON_LOGOUT,this.onLogoutFunc);
+        MyWebSocket.getInstance().addObserver(EventGame.ON_PING,this.onPingFunc);
+        MyWebSocket.getInstance().addObserver(EventGame.ON_ROOM_PLUGIN_MSG,this.onRoomPluginMessageFunc);
+        MyWebSocket.getInstance().addObserver(EventGame.ON_ERROR,this.onSocketErrorFunc);    
+        MyWebSocket.getInstance().addObserver(EventGame.ON_CLOSE,this.onSocketCloseFunc);
+    },
+    onConnectWebSocket: function (name, pass, connectType) {
+          MyWebSocket.connect(name,pass, connectType);
         
     },
-    onConnectWebSocket: function (name, pass) {
-        var socket =  MyWebSocket.connect(name,pass);
-        //cc.log('abstract class connect');
-        // this.connectWsCallBack();
-        // MyWebSocket.addObserver('onLogin', function(message){
-        //     console.log("onMSG login in Login SCENCE:" + message)
-        // });    
-        // MyWebSocket.addObserver('onLogout', function(message){
-        //     console.log("onMSG logout in Login SCENCE:" + message)
-        // });
-        // MyWebSocket.addObserver('onPing', function(message){
-        //     console.log("onMSG onPing in Login SCENCE:" + message)
-        // });
+    onConnectWebSocketWithSignatureData: function () {
+          MyWebSocket.connectWithSignatureData();
+        
     },
     disConnect: function () {
          MyWebSocket.disConnect();
@@ -71,10 +84,3 @@ var BaseScene= cc.Class({
 
     // },
 });
-/**
- @abstract
- */
-// BaseScene.prototype.connectWsCallBack = function() {
-//     //throw new Error("Abstract method!");
-// }
-

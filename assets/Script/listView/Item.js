@@ -1,6 +1,7 @@
 var MainLobby = require('MainLobbyScene');
 const LIST_GAME_IMG = require('Config').LIST_GAME_IMG;
 var GlobalData = require('GlobalData').getInstance();
+var GAME_ID_ARRAY =  require('Constant').GAME_ID_ARRAY;
 cc.Class({
     extends: cc.Component,
 
@@ -41,11 +42,12 @@ cc.Class({
         
     },
     // use this for initialization
-    init: function (id) {
-         this.idGameTop =id;
-         this.idGameBot = id+ LIST_GAME_IMG.length/2;
-         var textureUrlTop = (LIST_GAME_IMG[id]);//cc.url.raw
-         var textureUrlBot = LIST_GAME_IMG[id+ LIST_GAME_IMG.length/2];
+    init: function (gId) {
+       
+         this.idGameTop =GAME_ID_ARRAY[gId];
+         this.idGameBot =GAME_ID_ARRAY[ gId+ LIST_GAME_IMG.length/2];
+         var textureUrlTop = (LIST_GAME_IMG[gId]);//cc.url.raw
+         var textureUrlBot = LIST_GAME_IMG[gId+ LIST_GAME_IMG.length/2];
      
         // cc.log(" length => "+LIST_GAME_IMG.length);
         // cc.log(" textureUrlTop => "+textureUrlTop);
@@ -58,8 +60,6 @@ cc.Class({
         var spriteFrameBot = new cc.SpriteFrame( textureBot );
         this.btnBot.getComponent(cc.Sprite).spriteFrame=spriteFrameBot;
 
-        
-       
     },
 
     // called every frame
@@ -76,7 +76,7 @@ cc.Class({
        
     },
     clickItemBot: function () {
-       cc.log('clickview Bot');
+       cc.log('clickview Bot'+this.idGameBot);
        MainLobby.instance.onPlayGame(this.idGameBot);
     },
 });
